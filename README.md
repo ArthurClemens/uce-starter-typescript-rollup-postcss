@@ -14,6 +14,14 @@ Added features:
 * IE 11 polyfill for CSS Variables
 
 
+## Themes (without Shadow DOM)
+
+When the component doesn't have a sub-DOM tree, its styles can be set from the outside.
+
+In this setup the HTML loads `theme.css` that contains the CSS Variables that are references by the component CSS.
+
+
+
 ## Repo setup
 
 The example component is a simple (and slightly modified) counter that is used on [webcomponents.dev](https://webcomponents.dev/blog/all-the-ways-to-make-a-web-component/) to compare Web Component libraries.
