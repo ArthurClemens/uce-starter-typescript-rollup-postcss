@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>µce example with TypeScript, Rollup and CSS Variables</title>
+    <meta
+      name="viewport"
+      content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0"
+    />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta http-equiv="cleartype" content="on" />
+    <script src="polyfills.js"></script>
+    <link rel="stylesheet" href="global.css" />
+    <link rel="stylesheet" href="app.css" />
+    <link rel="stylesheet" href="theme.css" />
+  </head>
+  <body>
+    <my-counter></my-counter>
+    <my-counter count="99" class="has-initial-count"></my-counter>
+    <script src="bundle.js" defer></script>
+  </body>
+</html>

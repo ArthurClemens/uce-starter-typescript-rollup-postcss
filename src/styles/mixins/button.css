@@ -1,0 +1,11 @@
+@define-mixin button {
+  width: var(--button-size);
+  height: var(--button-size);
+  line-height: var(--button-size);
+  color: var(--button-text-color);
+  border: 1px solid var(--button-text-color);
+  padding: 0;
+  display: inline-block;
+  border-radius: 10px;
+  font-size: inherit;
+}
