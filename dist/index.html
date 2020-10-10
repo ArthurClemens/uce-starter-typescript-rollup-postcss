@@ -13,9 +13,36 @@
     <script src="polyfills.js"></script>
     <link rel="stylesheet" href="global.css" />
     <link rel="stylesheet" href="app.css" />
-    <link rel="stylesheet" href="theme.css" />
+
+    <!-- THEME SWITCHER -->
+    <script type="module" src="https://unpkg.com/dark-mode-toggle"></script>
+
+    <link
+      rel="stylesheet"
+      href="other.css"
+      media="(prefers-color-scheme: dark)"
+    />
+    <link
+      rel="stylesheet"
+      href="default.css"
+      media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
+    />
+    <style>
+      .theme-switch::part(darkLabel) {
+        margin-left: 10px;
+      }
+    </style>
+    <!-- END THEME SWITCHER -->
   </head>
   <body>
+    <dark-mode-toggle
+      class="theme-switch"
+      id="dark-mode-toggle"
+      light="Default"
+      dark="Other"
+      appearance="switch"
+      permanent="false"
+    ></dark-mode-toggle>
     <my-counter></my-counter>
     <my-counter count="99" class="has-initial-count"></my-counter>
     <script src="bundle.js" defer></script>

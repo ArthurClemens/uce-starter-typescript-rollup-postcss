@@ -3,10 +3,10 @@
   "version": "0.1.0",
   "description": "uce starter with TypeScript, Rollup and PostCSS",
   "scripts": {
-    "dev": "npm run copyTheme && npm run rollup -- --watch",
+    "dev": "npm run copyThemes && npm run rollup -- --watch",
     "build": "NODE_ENV=production npm run rollup",
-    "postbuild": "npm run copyTheme",
-    "copyTheme": "ts-node -P tsconfig.build-scripts.json scripts/copyTheme.ts",
+    "postbuild": "npm run copyThemes",
+    "copyThemes": "ts-node -P tsconfig.build-scripts.json scripts/copyThemes.ts",
     "rollup": "rollup -c rollup.config.js",
     "serve": "http-server dist"
   },

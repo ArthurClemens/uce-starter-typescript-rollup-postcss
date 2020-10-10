@@ -18,7 +18,9 @@ Added features:
 
 When the component doesn't have a sub-DOM tree, its styles can be set from the outside.
 
-In this setup the HTML loads `theme.css` that contains the CSS Variables that are references by the component CSS.
+In this setup the HTML loads the theme CSS according to the selection from the theme switcher (using [dark-mode-toggle](https://github.com/GoogleChromeLabs/dark-mode-toggle)). The theme file contains the CSS Variables that are referenced by the component CSS.
+
+Note: the theme switcher does not work in IE 11 yet.
 
 
 
@@ -36,13 +38,6 @@ The example component is a simple (and slightly modified) counter that is used o
 * `npm run dev` - runs the dev server on port `3000`
 * `npm run build` - creates `bundle.js` in `dist`
 * `npm run serve` - runs a server on `dist`
-
-
-## Changing the theme
-
-* In `scripts/copyTheme.ts`, change the theme name from 'default' to 'other'
-* Run `dev` or `build`
-
 
 
 ## See also

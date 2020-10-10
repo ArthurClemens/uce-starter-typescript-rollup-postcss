@@ -15,6 +15,6 @@ my-counter {
 
   button {
     @mixin button;
-    background-color: var(--usk-brand-background-color);
+    background-color: var(--usk-button-background-color);
   }
 }

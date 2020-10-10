@@ -29,12 +29,12 @@
     height: var(--usk-button-size);
     line-height: var(--usk-button-size);
     color: var(--usk-button-text-color);
-    border: 1px solid var(--usk-button-text-color);
     padding: 0;
     display: inline-block;
     border-radius: 10px;
     font-size: inherit;
-    background-color: var(--usk-brand-background-color);
+    border: none;
+    background-color: var(--usk-button-background-color);
   }
 
 /*# sourceMappingURL=app.css.map */
