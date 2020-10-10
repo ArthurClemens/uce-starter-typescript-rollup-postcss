@@ -32,7 +32,6 @@ interface IMyCounter extends Definition<Props, OwnProps> {
 }
 
 export const MyCounter: IMyCounter = {
-  // attachShadow: { mode: 'open' },
   init: function () {
     this.count = this.props.count !== undefined ? this.props.count : 0;
     this.dec = () => {
