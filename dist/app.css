@@ -15,7 +15,7 @@
   display: block;
   margin: 10px;
   font-weight: bold;
-  font-size: calc(var(--button-size) / 2);
+  font-size: calc(var(--usk-button-size) / 2);
 }
 
   my-counter span {
@@ -25,16 +25,16 @@
   }
 
   my-counter button {
-    width: var(--button-size);
-    height: var(--button-size);
-    line-height: var(--button-size);
-    color: var(--button-text-color);
-    border: 1px solid var(--button-text-color);
+    width: var(--usk-button-size);
+    height: var(--usk-button-size);
+    line-height: var(--usk-button-size);
+    color: var(--usk-button-text-color);
+    border: 1px solid var(--usk-button-text-color);
     padding: 0;
     display: inline-block;
     border-radius: 10px;
     font-size: inherit;
-    background-color: var(--brand-background-color);
+    background-color: var(--usk-brand-background-color);
   }
 
 /*# sourceMappingURL=app.css.map */

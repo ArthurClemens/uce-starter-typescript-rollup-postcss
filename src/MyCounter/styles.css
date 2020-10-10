@@ -5,7 +5,7 @@ my-counter {
   display: block;
   margin: 10px;
   font-weight: bold;
-  font-size: calc(var(--button-size) / 2);
+  font-size: calc(var(--usk-button-size) / 2);
 
   span {
     width: 2em;
@@ -15,6 +15,6 @@ my-counter {
 
   button {
     @mixin button;
-    background-color: var(--brand-background-color);
+    background-color: var(--usk-brand-background-color);
   }
 }
