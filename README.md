@@ -14,13 +14,19 @@ Added features:
 * IE 11 polyfill for CSS Variables
 
 
-## Themes (without Shadow DOM)
+## Themes
+
+### Without Shadow DOM
 
 When the component doesn't have a sub-DOM tree, its styles can be set from the outside.
 
 In this setup the HTML loads the theme CSS according to the selection from the theme switcher (using [dark-mode-toggle](https://github.com/GoogleChromeLabs/dark-mode-toggle)). The theme file contains the CSS Variables that are referenced by the component CSS.
 
 Note: the theme switcher does not work in IE 11 yet.
+
+### With Shadow DOM
+
+Sort out...
 
 
 
